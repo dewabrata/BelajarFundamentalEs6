@@ -1,0 +1,54 @@
+<html>
+
+<head>
+    <title>Belajar Array </title>
+    <script type="text/javascript" src='./array.js' async defer></script>
+</head>
+
+<body>
+
+    <p> Masukan buah atau sayur </p>
+    <label for="txtInput">Input nama item :</label>
+    <input type="text" id="txtItem"/>
+    Masukan jenis item
+    <select id="lstJenisItem" >
+     <option value="buah">Buah - Buahan</option>
+     <option value="sayur">Sayur-sayuran</option>
+    </select>
+    
+    <button id="btnAddItem" onclick="tambahItem(document.getElementById('txtItem').value,document.getElementById('lstJenisItem').value)">Tambah Item</button>
+    
+
+    <p> Jenis jenis buah</p>
+    <label for="txtBuah">Input nama buah :</label>
+    <input type="text" id="txtBuah"/>
+    <button id="btnAddBuah" onclick="tambahBuah(document.getElementById('txtBuah').value)">Tambah Buah</button>
+    <p>Buah Tropis :</p>
+    <ul>
+        <div id="buah">
+
+        </div>
+    </ul>
+
+
+
+
+
+    <p> Jenis jenis sayur buah</p>
+    <label for="txtSayur">Input nama sayur :</label>
+    <input type="text" id="txtSayur"/>
+    <button id="btnAddSayur" onclick="tambahSayur(document.getElementById('txtSayur').value)">Tambah Sayur</button>
+    <p>Sayuran Tropis :</p>
+    <ol>
+        <div id="sayuran">
+            
+        </div>
+    </ol>
+
+
+
+
+
+</body>
+
+</html>

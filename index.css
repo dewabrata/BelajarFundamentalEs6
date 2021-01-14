@@ -1,0 +1,37 @@
+h1 {
+    color: blue;
+    text-align: center
+   }
+   
+   .Champion {
+       color: rgb(255, 40, 244);
+       text-align: right;
+   
+   }
+   
+   #Champion{
+      color: green;
+      text-align: right;
+   }
+   
+   h1.judul {
+      color: yellow;
+      text-align: right;
+   }
+   
+   h1.judul#Champion{
+       color: blue;
+      text-align: right;
+   }
+   
+   
+   h1.judul#Loser{
+       color: red;
+      text-align: left;
+   }
+   
+   
+   p.Champion#Champion{
+       color:black;  
+       text-align:left
+   }
