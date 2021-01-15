@@ -91,14 +91,11 @@ console.log(Manusia.nama);
  const {musuh:enemy, mata:eyes} = Manusia;
 console.log(eyes);
 
-let multiply = (a)=> {
-  
- 
-}
+let multiply = (a)=> (b)=>a*b;
 
 
 let x = multiply(5);
-let y = multiply(x(2));
+let y = x(2);
 
 console.log(y);
 
